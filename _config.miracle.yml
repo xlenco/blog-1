@@ -54,10 +54,14 @@ beian:
 custom:
   js:
     - "/assets/js/message.js"
+    - "/assets/js/master.js"
+    - "https://npm.elemecdn.com/msg-alert@1.0.0-beta.4/dist/msg-alert.js"
+    - "https://npm.elemecdn.com/imagekit-javascript@1.3.0/dist/imagekit.min.js"
 
   css:
     - "/assets/css/master.css"
     - "/assets/css/shiki.css"
+    - "/assets/css/float.css"
     - "https://npm.elemecdn.com/remixicon@2.5.0/fonts/remixicon.css"
 
 index:
@@ -137,10 +141,13 @@ post:
       赞赏: "/donate/"
 
 comment:
-  type: twikoo
-  twikoo:
-    envid: "https://api.twikoo.prts.top"
-    isVercel: true
+  type: artalk
+  artalk:
+    envid: "https://artalk.prts.top"
+  # type: twikoo
+  # twikoo:
+  #   envid: "https://api-twikoo.prts.top"
+  #   isVercel: true
 
 category:
   enable: true
@@ -162,13 +169,14 @@ links:
   enable: true
   json_links:
     enable: true
-    item_links: "/assets/data/links.json"
+    item_links: "https://blog.tnxg.top/assets/data/links.json"
 
 page404:
   enable: true
 
 static_prefix:
   twikoo: "https://assets.tnxg.whitenuo.cn/static/twikoo/1.6.8/"
+  artalk: "https://cdn.staticfile.org/artalk/2.5.5/"
 
 lazyload:
   enable: true
@@ -176,4 +184,4 @@ lazyload:
   loadingImage: "https://assets.tnxg.whitenuo.cn/images/face/Q_Matikanetannhauser_dance.gif?fmt=webp"
 
 qexo_time:
-  enable: true
+  enable: false

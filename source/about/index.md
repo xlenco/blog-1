@@ -2,7 +2,7 @@
 title: 关于
 type: "about"
 date: 2022-02-07 16:35:30
-updated: 2022-10-07 12:50:35
+updated: 2023-01-17 12:50:35
 aplayer: true
 ---
 
@@ -25,17 +25,24 @@ aplayer: true
 <figure><embed src="https://wakatime.com/share/@TNXG/d02e03cf-37e4-4415-9226-87ff79d40804.svg"></embed></figure>
 
 # 联系方式
-[QQ](https://jq.qq.com/?_wv=1027&k=hc3OKNED) | [GitHub](https://github.com/TNXG) | [E-Mail](mailto:tianxiang_tnxg@outlook.com) | [网易云音乐](https://music.163.com/user/home?id=515522946) | [哔哩哔哩](https://space.bilibili.com/175424674) | [Telegram](https://t.me/tianxiang_tnxg) | [Twitter](https://twitter.com/tianxiang_tnxg)
+[QQ](https://jq.qq.com/?_wv=1027&k=hc3OKNED) | [GitHub](https://github.com/TNXG) | [E-Mail](mailto:tnxg@outlook.jp) | [网易云音乐](https://music.163.com/user/home?id=515522946) | [哔哩哔哩](https://space.bilibili.com/175424674) | [Telegram](https://t.me/tianxiang_tnxg) | [Twitter](https://twitter.com/tianxiang_tnxg)
 
 # 关于站点
->来看看站点的构成？（白嫖大王.jpg）
-
-![](https://assets.tnxg.whitenuo.cn/images/upload/%E5%8D%9A%E5%AE%A2%E7%BB%84%E6%88%90.png)
-
-~~图片过时了~~
 
 >本站编年史
 
+<details>
+<summary>2023</summary>
+
+### 2023-7-13
+对于博客过时信息进行了更新
+
+### 2023-6-4
+使用Python+Flask重写了博客后端
+
+### 2023-6-3
+重写博客ServiceWorker
+</details>
 <details>
 <summary>2022</summary>
 
@@ -147,7 +154,7 @@ MurlAPI初步建立
 # 其他
 
 <details>
-<summary>About Game</summary>
+<summary>About Game - 那些我玩过和我正在玩的游戏</summary>
 
 ### 明日方舟
 
@@ -159,19 +166,51 @@ MurlAPI初步建立
 Java: TARS_TNXG
 BE: tian xiang zax6
 
-### 少女前线
+### 少女前线（已经退游）
 
 1516432
 TARS天翔
 
-### 崩坏3
+### 崩坏3（已经退游）
 
 260574680
 天翔
 
-### 原神
+### 原神（已经退游）
 
 142617967
 天翔TNXG
 
+
+### 赛马娘
+
+日服：いゆくるず（326246156）
+![](https://assets.tnxg.whitenuo.cn/images/cover/games/uma/JP_Card-1.png)
+![](https://assets.tnxg.whitenuo.cn/images/cover/games/uma/JP_Card-2.png)
+
+
+繁中服：いゆくるず（582892006783）
+![](https://assets.tnxg.whitenuo.cn/images/cover/games/uma/TC_Card-1.jpg)
+![](https://assets.tnxg.whitenuo.cn/images/cover/games/uma/TC_Card-2.jpg)
+
+
+### 幻塔（半退游）
+
+开服玩家，见证了这个游戏一步步变好，但是懒得找id了，知我是个幻塔玩家就行 ~~（ht煞笔海底策划不会做探索就tm别做）~~
+
+### 想玩的，将来可能会玩的（包括公测和未公测的）
+
+公主连结、卡拉彼丘、明日方舟：终末地、来自星尘、少女前线2：追放、少前：谲境、律动轨迹、尘白禁区、火环、临界指令、雾境序列、绝区零、时序残响、鸣潮、绿梦、秘银之枪、赛尔计划
+
+
+<details>
+<summary>看点笑话</summary>
+
+![](https://assets.tnxg.whitenuo.cn/images/upload/2023/01/0dfe2e4f02f9e59721c626a5afd72cdb.png)
+
+![](https://assets.tnxg.whitenuo.cn/images/upload/2023/01/0f408662d833cd2bb426955479749d4d.png)
+
+Copilot是懂Markdown生成的
+
+</details>
 </details>

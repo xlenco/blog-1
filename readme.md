@@ -30,23 +30,23 @@
 + 若站点长时间无法访问，我们会删除您的友链，恢复后可再次申请。
 + 确保您的网站不存在政治敏感问题及违法内容。没有过多的广告、无恶意软件、脚本。且转载文章须注明出处。
 + 确保站点可以以HTTPS访问,允许不强制,可以没有HSTS。
-+ 您需要有自己的独立域名，暂且不同意公有子域名或免费域名的友链申请(如github.io, vercel.app, eu.org, js.cool, .tk, .ml, .cf等，py除外)
++ 确保您的站点拥有rss订阅链接
++ 您需要有自己的独立域名，暂且不同意公有子域名或免费域名的友链申请(如github.io, vercel.app, eu.org, js.cool, .tk, .ml,.cf等，py除外)
 + 暂时不同意商业及非个人的网站的友链申请(py除外)。
 
 
+<div align="center">
+阅读以上信息后，请填写以下资料，并提交PR给咱
+</div>
+
 ```json
 ,{
-    "link":"站点链接",
-    "image":"icon图片链接（推荐使用图床，我们会进行缓存）",
     "title":"站点名称",
-    "intro":"站点简介"
+    "intro":"站点简介",
+    "link":"站点链接(链接末尾需要携带/，比如https://blog.tnxg.top/)",
+    "image":"icon图片链接（推荐使用图床，我们会进行缓存）",
+    "rss":"rss订阅链接",
+    "time": "申请时间(10位时间戳)"
 }
 ```
-
-<div align="center">
-
-填写好以上资料后将资料直接填写在[我们储存友链的Json内](https://github.com/TNXG/blog/blob/master/source/assets/data/links.json)
-
-然后PR给我
-
-</div>
+请将以上信息提交到 [我们储存友链的json](https://github.com/TNXG/blog/blob/master/source/assets/data/links.json) 内

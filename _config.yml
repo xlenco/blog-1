@@ -21,7 +21,9 @@ images:
 lazyload:
   enable: true
   onlypost: false
-  loadingImage: "https://assets.tnxg.whitenuo.cn/images/face/Q_Matikanetannhauser_dance.gif?fmt=webp"
+  loadingImage: "https://assets.tnxg.whitenuo.cn/images/face/Q_Matikanetannhauser_dance.gif"
+
+async: true
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -68,7 +70,8 @@ prismjs:
   line_number: false
 
 # 打开 shiki
-shiki_twoslash:
+syntax_highlighter: "shiki"
+shiki:
   enable: true
   theme: "dark-plus"
 

@@ -6,7 +6,7 @@ on:
       - master
   workflow_dispatch:
 
-env: 
+env:
   TZ: Asia/Shanghai
 
 jobs:
@@ -52,6 +52,3 @@ jobs:
           BRANCH: static
           FOLDER: public
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-
-      - name: keep alive
-        uses: gautamkrishnar/keepalive-workflow@master
